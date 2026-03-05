@@ -1,0 +1,16 @@
+{
+  "model_type": "Logistic Regression (scikit-learn)",
+  "input_features": [
+    "hrv",
+    "eda",
+    "sleep_quality",
+    "spoon_count",
+    "sensory_load",
+    "masking_level",
+    "social_demands"
+  ],
+  "bias_mitigation": "No demographic data. Class weights balanced to prevent majority-class bias.",
+  "threshold_trigger": 0.7,
+  "interpretability": "Coefficients indicate feature direction/magnitude",
+  "version": "1.0"
+}
